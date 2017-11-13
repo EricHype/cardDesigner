@@ -1,0 +1,42 @@
+<card>
+    <name>Plague</name>
+    <cardType>Enchantment</cardType>
+    <manaCost>4</manaCost>
+    <distance>0</distance>
+    <target>WORLD</target>
+    <cardImage>./images/plague.jpg</cardImage>
+    <cardText>This spell remains in play as long as there are minions on the board. At the beginning of your turn, the minion with the least life
+        total is destroyed.</cardText>
+    <turnEffect>KILL MINION WEAKEST</turnEffect>
+</card>
+
+<card>
+    <name>Air Elemental</name>
+    <cardType>Minion</cardType>
+    <manaCost>2</manaCost>
+    <health>20</health>
+    <equipmentSlots>1</equipmentSlots>
+    <spellSlots>3</spellSlots>
+    <turnEffect>ADD COUNTER TO SELF</turnEffect>
+    <cardImage>./images/plague.jpg</cardImage>
+    <cardText>Remove a wind counter and Exhaust: Target minion is Exhausted or Unexhausted. If you Exhausted a minion, they remain that way
+        until the beginning of your next turn</cardText>
+    <abilityCost>REMOVE COUNTER AND EXHAUST</abilityCost>
+    <abilityTarget>ANY MINION</abilityTarget>
+    <ability>TOGGLE EXHAUST</ability>
+    <abilityDuration>1 TURN</abilityDuration>
+</card>
+
+<card>
+    <name>Dagger of Dispelling</name>
+    <cardType>Equipment</cardType>
+    <manaCost>3</manaCost>
+    <modifier>DAMAGE +4</modifier>
+    <distance>1</distance>
+    <ability>COUNTER SPELL</ability>
+    <abilityTarget>NEXT OPPONENT SPELL</abilityTarget>
+    <cardText>The next spell your opponent plays fizzles and is put in their compost, and this dagger is destroyed.</cardText>
+</card>
+
+
+
